@@ -17,14 +17,14 @@ async function CreateWordPressPost() {
     const githubProfileLink = process.env.GITHUB_PROFILE_LINK;
 
     // Validate environment variables
-    if (!ourusername || !ourpassword || !mediaEndpoint || !postsEndpoint || !githubProfileLink) {
-        console.error("❌ Missing environment variables. Please check your .env file.");
-        return;
-    }
+    // if (!ourusername || !ourpassword || !mediaEndpoint || !postsEndpoint || !githubProfileLink) {
+    //     console.error("❌ Missing environment variables. Please check your .env file.");
+    //     return;
+    // }
 
-    console.log("Media Endpoint:", mediaEndpoint);
-    console.log("Posts Endpoint:", postsEndpoint);
-    console.log("GitHub Link:", githubProfileLink);
+    // console.log("Media Endpoint:", mediaEndpoint);
+    // console.log("Posts Endpoint:", postsEndpoint);
+    // console.log("GitHub Link:", githubProfileLink);
 
     // ================================
     // Step 1: Upload Image to WordPress
