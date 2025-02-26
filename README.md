@@ -29,7 +29,7 @@ A **Node.js** tool to automate **WordPress post creation** using the **WordPress
 ### 1️⃣ **Clone the Repository**
 
 ```bash
-git clone https://github.com/abdulsamadshaikh/node-wp-post-creator.git
+git clone https://github.com/abdulsamadshaikh/node-wp-post-creator-orignal.git
 cd node-wp-post-creator
 ```
 
